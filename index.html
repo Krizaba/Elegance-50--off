@@ -23,17 +23,17 @@
         img {
             border: 0;
         }
-        /* a {
-            color: #e8fbfa;
-            text-decoration: none;
-        } */
         
         .banner {
-            height: auto!important;
+            height: 900px!important;
             padding-top: 40px!important;
             padding-bottom: 60px!important;
-            z-index: 2;
             background-repeat: no-repeat;
+        }
+        
+        .button:hover {
+            background: #705e48;
+            color: #fff;
         }
     </style>
 </head>
@@ -47,7 +47,7 @@
 
                 <tr>
                     <td style="padding: 0;">
-                        <table width="100%" style="border-spacing: 0;background-color: #fff1df;" role="presentation">
+                        <table width="100%" style="border-spacing: 0;background-color: #fff1df;;" role="presentation">
 
                             <tr>
                                 <td style="padding: 20px 0 20px 0;text-align: center;">
@@ -58,24 +58,26 @@
                         </table>
                     </td>
                 </tr>
-            </table>
-
-            <table align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;background-color: #ffffff;Margin:0;padding:0;width: 100%;max-width: 600px;height:1020px;" role="presentation">
+                <!-- START BANNER -->
                 <tr>
-                    <td class="banner" background="https://i.ibb.co/1MD17S9/ezgif-com-gif-maker.gif" width="600" height="900" style="background-position: center top;">
+                    <td class="banner" background="https://i.ibb.co/1MD17S9/ezgif-com-gif-maker.gif" width="600" style="background-position: center top;">
                     </td>
                 </tr>
+                <!-- END BANNER -->
             </table>
+
+
+
 
 
             <table align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;background-color: #fff1df;;Margin:0;padding:0;width: 100%;max-width: 600px;" role="presentation">
 
                 <tr>
-                    <td class="button" align="center">
+                    <td align="center">
                         <table cellpadding="0" cellspacing="0" role="presentation">
                             <tr>
                                 <td style="border-radius: 10px;" bgcolor="#fff1df">
-                                    <a href="https://example.com" target="_blank" style="font-size: 25px; font-weight: bold;text-decoration:none;color:#705e48;background-color: #ffe3b4;border:1px solid #705e48;margin:30px 0 30px 0;
+                                    <a class="button" href="https://example.com" target="_blank" style="font-size: 25px; font-weight: bold;text-decoration:none;color:#705e48;background-color: #ffe3b4;border:1px solid #705e48;margin:30px 0 30px 0;
                                     border-radius: 10px;padding: 12px 20px;display: inline-block;">SHOP HERE</a>
                                 </td>
                             </tr>
@@ -95,6 +97,8 @@
                         </table>
                     </td>
                 </tr>
+
+
             </table>
         </div>
     </center>
